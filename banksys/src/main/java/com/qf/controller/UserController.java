@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController //上下关系等同
 public class UserController {
 
+    //自动注入
     @Autowired
     UserService userService;
 
